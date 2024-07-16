@@ -1,0 +1,39 @@
+{
+    "name": "gregory/nocodejob",
+    "description": "a saas application",
+    "type": "project",
+    "license": "MT",
+    "authors": [
+        {
+            "name": "Daniyel4",
+            "email": "tegamoses1@gmail.com"
+        }
+    ],
+    "require": {},
+
+    "autoload":{
+
+        "psr-4":{
+
+            "App\\": "src/App",
+            "Framework\\": "src/Framework"
+
+        },
+
+        "files": [
+
+
+             "src/App/Config/Routes.php"
+
+        ]
+
+    },
+
+    "scripts":{
+
+        "nocodejob": "php cli.php"
+
+    }
+
+
+}
